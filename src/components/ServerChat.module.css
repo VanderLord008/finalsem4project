@@ -1,0 +1,38 @@
+.container{
+    background-color: #36393F;
+    font-family: 'Source Sans Pro';
+    width: 100%;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-rows: 4rem 1fr 3rem;
+    line-height: 25px;
+    overflow-y:hidden ;
+} 
+.container .channelChats{
+    overflow-y: scroll;
+}
+.container .channelName{
+    text-align: center;
+    color: white;
+    font-size: large;
+    word-spacing: 2px;
+    margin-bottom: 2rem;
+    background-color: #202225;
+    width: 100%;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+.container .channelChats .msg{
+    color: white;
+}

@@ -1,0 +1,20 @@
+.container .messageInfo{
+    display: flex;
+}
+.container .messageInfo span{
+text-decoration: none;
+}
+.container .messageInfo .name span{
+    color: #31754C;
+}
+.container .messageInfo .time{
+    margin-left: 5rem;
+}
+.container:hover{
+background-color: #42464D;
+}
+.container .message{
+    margin-left: 1rem;
+    font-size: large;
+    font-weight: 400;
+}
